@@ -60,8 +60,10 @@ const sumNums = (arr)=>{
 
 const reverseArray = (arr)=>{
     let arr2=[];
-    for(let y =0; y< arr.length; y++ ){
-        arr2.unshift(arr[y]);
+    let count = 0;
+    for(let y =arr.length -1 ; y >= 0 ; y-- ){
+        arr2[count] = arr[y];
+        count++;
     }
     return arr2;
 }
