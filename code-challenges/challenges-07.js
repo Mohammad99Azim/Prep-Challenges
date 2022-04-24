@@ -18,7 +18,7 @@
 
 //  Note that:
 //  1- The text template is "my name is ** ** I am ** YO, and I love **."
-//  2- The first letters of the firstName and lastName should be capital letter
+//  2- The first letters of the firstName and lastName should be capital letter 
 
 const objLat = (obj) => {
 
@@ -113,7 +113,6 @@ const cvFormatter = (arr) => {
         }
     }
     return reformatArr;
-
 };
 // -------------------------------------------------------------------------------------------------------
 
