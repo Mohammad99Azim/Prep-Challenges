@@ -127,6 +127,14 @@ const stringReverse = (str) => {
 
 const statistics = (obj) => {
         // write your code here
+
+        let result = obj.reduce(function(previousValue, currentValue, currentIndex, arr) {
+
+
+
+
+
+        });
     }
     // -------------------------------------------------------------------------------------------------------
 
